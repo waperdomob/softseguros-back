@@ -11,6 +11,7 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'softseguros_back.settings.local')
+#os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'softseguros_back.settings.local')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'softseguros_back.settings.production')
 
 application = get_wsgi_application()
