@@ -3,11 +3,6 @@ from .base import *
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
-
-
 DATABASES = {
     'default': dj_database_url.config(
         default='mysql://root:@localhost:3306/softseguros',
